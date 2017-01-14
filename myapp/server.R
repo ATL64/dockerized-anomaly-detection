@@ -253,7 +253,7 @@ function(input, output, session) {
   
   output$about <- renderText({
     "
-      Thuis  time-series based anomaly detection is based upon automated model selection based on AIC. 
+      This  time-series based anomaly detection is based upon automated model selection based on AIC. 
       The candidate models for each time series are ARIMA models of different orders (seasonal and non seasonal).
       Given a table with counts, dates and dimensions, this code will automatically generate tens of thousands of forecasts 
       and identify which measurements (of the last day), are 'anomalies'. This is described by the alert level.
@@ -266,7 +266,7 @@ function(input, output, session) {
       ORDER BY DATE
       
       Code for backend and frontend of the app available at: https://github.com/ATL64/anomaly-detection
-      Code for dockerized frontend of the app available at:
+      Code for dockerized frontend of the app available at: https://github.com/ATL64/dockerized-anomaly-detection
 
       If you wish to implement this for your company some minor changes might be needed.
       For more information write me at ATL64@gmail.com
