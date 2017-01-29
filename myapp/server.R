@@ -269,7 +269,7 @@ function(input, output, session) {
       Code for dockerized frontend of the app available at: https://github.com/ATL64/dockerized-anomaly-detection
 
       If you wish to implement this for your company some minor changes might be needed.
-      For more information write me at ATL64@gmail.com
+      For more information write me at ATL64x@gmail.com
       
     "
     
