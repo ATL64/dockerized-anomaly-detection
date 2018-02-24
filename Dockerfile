@@ -1,6 +1,6 @@
 FROM r-base:latest
 
-MAINTAINER Axel Leonhardt "ATL64@gmail.com"
+MAINTAINER Axel Leonhardt "ATL64x@gmail.com"
 
 RUN apt-get update && apt-get install -y \
     sudo \
