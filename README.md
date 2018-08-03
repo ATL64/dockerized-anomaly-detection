@@ -1,7 +1,7 @@
 # dockerized-anomaly-detection
 
 
-      App currently hosted on Digital Ocean here: http://45.55.221.209/
+      App currently hosted on Digital Ocean here: ----------- [DEPRECATED, not hosed anywhere right now]
 
       This  time-series based anomaly detection is based upon automated model selection based on AIC. 
       The candidate models for each time series are ARIMA models of different orders (seasonal and non seasonal).
