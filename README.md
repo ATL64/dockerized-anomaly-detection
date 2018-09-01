@@ -19,7 +19,6 @@
 
     
 Observations:
-    
     - This was an experiment, and do not recommend using this in production, partly because of the messy code which was written in one go.  More important though are the learnings below.
     
    - For an e-commerce use case, it is much better to sacrifice the visualization and focus on the detection.  No need to 'see' the ones that are not anomalies, and in practice it is better to just consider a few hundred or less time series.
