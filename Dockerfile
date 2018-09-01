@@ -21,7 +21,7 @@ RUN wget --no-verbose https://s3.amazonaws.com/rstudio-shiny-server-os-build/ubu
 
 RUN R -e "install.packages(c('shiny', 'rmarkdown', 'ggplot2', 'dplyr', 'plotly','devtools','shinythemes'), repos='http://cran.rstudio.com/')"
 
-RUN R -e "devtools::install_git('https://github.com/jcheng5/googleCharts.git')"
+RUN R -e "devtools::install_github('jcheng5/googleCharts')"
 
 COPY shiny-server.conf  /etc/shiny-server/shiny-server.conf
 COPY /myapp/* /srv/shiny-server/
