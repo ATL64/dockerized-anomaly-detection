@@ -18,7 +18,7 @@
       Code for backend and frontend of the app available at: https://github.com/ATL64/anomaly-detection
 
     
-    Observations:
+Observations:
     
     - This was an experiment, and do not recommend using this in production, partly because of the messy code which was written in one go.  More important though are the learnings below.
     
@@ -27,3 +27,5 @@
    - Instead of observing daily counts, it is way more practical to look at hourly counts, minute counts being even better.  This is because the curves are much smoother and exhibit daily periodicity.  The usual drops or spikes in a BI scenario are much more identfiable this way rather than looking at the daily counts.
    
    - Instead of R and shiny server, I would try Python for the next attempt.  This is because in case of productionizing the system, it will be much easier to mantain Python (given it's popularity) instead of R code.  It also lends itself better for making a proper app in my point of view.  
+   
+   - To run this, build the image and then  ``` sudo docker run -d -p 8330:80 image_name```
