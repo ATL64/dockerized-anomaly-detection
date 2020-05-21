@@ -1,7 +1,7 @@
 # dockerized-anomaly-detection
 
 
-      App currently hosted on google cloud here: http://35.242.195.100:8330/
+      App currently hosted on google cloud here: http://35.234.124.29:8330/
 
       This  time-series based anomaly detection is based upon automated model selection based on AIC. 
       The candidate models for each time series are ARIMA models of different orders (seasonal and non seasonal).
